@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    width: 100%;
+    width: 90%;
     font-size: 1rem;
 }
 
@@ -8,8 +8,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    flex-direction: column;
 }
 
+li {
+    list-style-type: none;
+}
+/* Header */
+header {
+    width: 100%;
+
+}
+h1 {
+    text-align: left;
+}
 /*Nav Styles */
 .navigation {
     display: flex;
@@ -17,3 +30,9 @@ body {
     align-items: center;
     width: 40%;
 }
+
+/* About Section */
+.about {
+    padding-left: 10px;
+}
+
