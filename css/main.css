@@ -52,7 +52,7 @@ li {
     align-items: center;
 }
 /* About Section */
-.about {
+#about {
     padding-left: 10px;
 }
 /*Menu Section */
@@ -61,7 +61,7 @@ li {
     width: 133.33px;
 }
 /* Catering Section */
-.catering {
+#catering {
     padding-left: 10px;
 }
 
