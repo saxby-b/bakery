@@ -86,9 +86,22 @@ a:hover {
     padding-left: 10px;
 }
 /*Menu Section */
+.menu-item {
+    background-color: #ffebfb;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    flex-direction: column;
+}
 .menu-img {
-    max-height: 200px;
-    width: 133.33px;
+   min-height: 200px;
+  /*  width: 133.33px; */
+  width: 150px;
+    
 }
 /* Catering Section */
 #catering {
