@@ -25,17 +25,25 @@ header {
 
 }
 
-header {
-    background-color:#f7eddc;
+.header-content {
+    background-color: #f7c6ee;
+    width: 100%;
 }
 h1 {
-    text-align: left;
+    text-align: center;
 }
 div.header-divider {
-    height: 20px;
-    background: black;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+
 }
 /*Nav Styles */
+.nav-content {
+    background-color: #f7eddc;
+    width: 100%;
+
+}
 .navigation {
     display: flex;
     justify-content: center;
@@ -85,5 +93,10 @@ a:hover {
 /* Catering Section */
 #catering {
     padding-left: 10px;
+}
+figure img {
+    height: 200px;
+    width: 300px;
+    background-size: cover;
 }
 
