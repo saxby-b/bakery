@@ -24,8 +24,16 @@ header {
     width: 100%;
 
 }
+
+header {
+    background-color:#f7eddc;
+}
 h1 {
     text-align: left;
+}
+div.header-divider {
+    height: 20px;
+    background: black;
 }
 /*Nav Styles */
 .navigation {
@@ -33,11 +41,25 @@ h1 {
     justify-content: center;
     align-items: center;
     padding-left: 0;
+    background-color: #f7eddc;
 }
 
 li {
     padding-right: 20px;
     font-size: 1.125em;
+}
+
+a:link {
+    text-decoration: black;
+    color: black;
+}
+
+ a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #f7c6ee;
 }
 
 /* Hero Area */
