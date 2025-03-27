@@ -96,6 +96,10 @@ a:hover {
     flex-wrap: wrap;
     margin-left: 20px;
     flex-direction: column;
+    padding: 20px;
+}
+.menu-item h3 {
+    text-align: center;
 }
 .menu-img {
    min-height: 200px;
