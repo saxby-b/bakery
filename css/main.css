@@ -26,7 +26,7 @@ header {
 }
 
 .header-content {
-    background-color: #f7c6ee;
+    background-color: #ffebfb;
     width: 100%;
 }
 h1 {
@@ -88,15 +88,13 @@ a:hover {
 /*Menu Section */
 .menu-item {
     background-color: #ffebfb;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    flex-wrap: wrap;
-    margin-left: 20px;
+    width: 80%;
     flex-direction: column;
     padding: 20px;
+    margin: 0 20px 20px 20px;
 }
 .menu-item h3 {
     text-align: center;
@@ -104,7 +102,7 @@ a:hover {
 .menu-img {
    min-height: 200px;
   /*  width: 133.33px; */
-  width: 150px;
+  width: 200px;
     
 }
 /* Catering Section */
