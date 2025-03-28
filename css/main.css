@@ -58,7 +58,7 @@ li {
 }
 
 a:link {
-    text-decoration: black;
+    text-decoration: underline solid 5px #ffebfb;
     color: black;
 }
 
@@ -158,7 +158,13 @@ address {
 @media only screen and (min-width: 768px) {
     /*General Styles */
 
-    /*Header Styles */
+    /**Header Styles **/
+    
+    /*Nav Styles */
+    ul.navigation {
+        width: 100%;
+        justify-content: space-around;
+    }
 
     /*About Section */
     #about {
