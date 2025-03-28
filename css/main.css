@@ -160,10 +160,38 @@ address {
 
     /*Header Styles */
 
+    /*About Section */
+    #about {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    #about h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #about p {
+        width: 40%;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    p.divide {
+        padding-right: 40px;
+        border-right: 5px solid #f7f7f7;
+    }
+
     /*Menu Section */
     #menu {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
@@ -180,6 +208,10 @@ address {
         justify-content: space-between;
         flex-direction: column;
         width: 30%;
+    }
+
+    .menu-img {
+        height: 297.99px;
     }
 
     /*Catering Section */
