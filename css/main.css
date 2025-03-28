@@ -154,3 +154,41 @@ footer {
 address {
     margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+    /*General Styles */
+
+    /*Header Styles */
+
+    /*Menu Section */
+    #menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #menu h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    #menu h3 {
+        width: 100%;
+    }
+    .menu-item {
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    /*Catering Section */
+    .cater-divider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #catering h2 {
+        width: 100%;
+    }
+}
