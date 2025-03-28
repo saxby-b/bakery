@@ -230,3 +230,32 @@ address {
         width: 100%;
     }
 }
+
+@media only screen and (min-width: 1200px) {
+    /* About Section */
+    #about {
+        justify-content: space-evenly;
+    }
+    #about p {
+        width: 30%;
+    }
+
+    p.divide {
+        border: none;
+        padding: none;
+    }
+    /*Menu Section */
+    .menu-item {
+        width: 20%;
+
+    }
+
+    /*Catering Section */
+    .cater-divider {
+        justify-content: center;
+    }
+
+    #catering p {
+        width: 40%;
+    }
+}
