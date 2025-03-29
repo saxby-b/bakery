@@ -229,6 +229,30 @@ address {
     #catering h2 {
         width: 100%;
     }
+
+    /* Footer Section */
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .location {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact, .social {
+        width: 30%;
+        text-align: center;
+    }
+
+    .update {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
