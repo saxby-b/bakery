@@ -233,6 +233,7 @@ footer a:hover {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-bottom: 40px;
   }
   #menu h2 {
     text-align: center;
