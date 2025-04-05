@@ -47,6 +47,7 @@ div.header-divider {
   justify-content: center;
   align-items: center;
   padding-left: 0;
+  margin-bottom: 20px;
 }
 
 li {
@@ -67,6 +68,16 @@ a:hover {
   color: #f7c6ee;
 }
 
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+label {
+  padding-right: 5px;
+}
 /* Hero Area */
 .hero-area {
   background-image: url("../img/header-image.jpg");
