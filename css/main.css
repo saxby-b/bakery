@@ -198,6 +198,34 @@ footer a:hover {
 .update {
   text-align: center;
 }
+
+/** Dark Mode Styles **/
+
+/* Dark Mode General Styles */
+.dark-mode-body{
+  color: #fff;
+
+}
+
+.dark-mode-section {
+  background-color: #2e2e1f;
+}
+
+.dark-mode-dark-gray {
+  background-color: #262626;
+}
+
+/*Dark Mode Header Styles */
+
+.dark-mode-header-content {
+  background-color: #330029;
+
+}
+
+.dark-mode-divider {
+  background-color: #fff;
+}
+
 @media only screen and (min-width: 768px) {
   /*General Styles */
 
