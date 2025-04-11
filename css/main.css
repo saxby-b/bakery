@@ -207,10 +207,6 @@ footer a:hover {
 
 }
 
-.dark-mode-section {
-  background-color: #2e2e1f;
-}
-
 .dark-mode-dark-gray {
   background-color: #262626;
 }
@@ -224,6 +220,11 @@ footer a:hover {
 
 .dark-mode-divider {
   background-color: #fff;
+}
+
+/* Dark Mode Nav Styles */
+.dark-mode a {
+  color: #f7c6ee;
 }
 
 @media only screen and (min-width: 768px) {
